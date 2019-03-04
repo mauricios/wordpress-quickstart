@@ -468,12 +468,7 @@
                 "host": "",
                 "to": {
                     "kind": "Service",
-                    "name": "${APPLICATION_NAME}",
-                    "weight": 100
-                },
-                "tls": {
-                    "termination": "edge",
-                    "insecureEdgeTerminationPolicy": "Allow"
+                    "name": "${APPLICATION_NAME}"
                 }
             }
         },
